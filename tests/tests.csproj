@@ -71,6 +71,7 @@
     <Content Include="hala\WebForm1.aspx" />
     <Content Include="hala\WebForm2.aspx" />
     <Content Include="suleiman\WebForm1.aspx" />
+    <Content Include="suleiman\WebForm2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +103,13 @@
     </Compile>
     <Compile Include="suleiman\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="suleiman\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="suleiman\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
